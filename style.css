@@ -1,0 +1,247 @@
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+  width: 100%;
+  background: url(./img/banner.jpg) center / cover no-repeat;
+}
+
+.imagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20vw;
+}
+
+.eu {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nome {
+  color: rgb(183, 183, 255);
+  font-size: 7rem;
+  text-transform: uppercase;
+  font-family: montserrat;
+  font-weight: 700;
+}
+
+.descricao {
+  color: rgb(78, 51, 255);
+  font-size: 2.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: montserrat;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  height: 8vh;
+  width: 100%;
+}
+
+.link {
+  color: rgb(183, 183, 255);
+  padding: 0 1rem 0 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: montserrat;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.link:hover {
+  color: rgb(0, 0, 116);
+  font-size: 2.2rem;
+}
+
+.principal {
+  display: flex;
+}
+
+.titulo {
+  font-size: 2rem;
+  color: rgb(121, 120, 120);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: montserrat;
+}
+
+.texto {
+  width: 65%;
+  color: rgb(31, 31, 31);
+  font-size: 1.5rem;
+  font-family: montserrat;
+  font-weight: 500;
+}
+
+.texto_dois {
+  width: 100%;
+  color: rgb(31, 31, 31);
+  font-size: 1.5rem;
+  font-family: montserrat;
+  font-weight: 500;
+}
+
+.bsi {
+  font-weight: bold;
+}
+
+.esquerda {
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  height: 100vh;
+  width: 30%;
+}
+
+.pf {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+}
+
+.formacao {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 3rem;
+}
+
+.meio {
+  background-color: rgb(202, 202, 202);
+  height: 100vh;
+  width: 40%;
+}
+
+.habilidades {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.lista {
+  margin-left: 1.4rem;
+  color: rgb(83, 82, 82);
+  font-size: 1.2rem;
+  list-style-type: square;
+  font-family: montserrat;
+  font-weight: 500;
+}
+
+.conhecimentos {
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.box_um {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+}
+
+.experiencia {
+  padding-top: 3rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.exp {
+  color: rgb(48, 48, 48);
+}
+
+.direita {
+  background-color: rgb(124, 124, 124);
+  height: 100vh;
+  width: 30%;
+}
+
+.box_dois {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+}
+
+.hobbies {
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.imagens {
+  width: 50%;
+}
+
+.rodape {
+  background-color: rgb(0, 0, 255);
+  height: 20vh;
+  width: 100%;
+}
+
+.contato_div {
+  height: 13vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo_contato {
+  padding-top: 0.5rem;
+  color: white;
+  font-size: 2.2rem;
+  font-family: montserrat;
+  text-transform: uppercase;
+}
+
+.portifolio_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(57, 57, 255);
+  height: 7vh;
+  width: 100%;
+}
+
+.contato_escrita {
+  height: 80%;
+}
+
+.contato_texto {
+  padding-top: 0.3rem;
+  color: white;
+  font-family: montserrat;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  width: 40px;
+}
