@@ -23,6 +23,10 @@
   border-radius: 100%;
 }
 
+.sobreMim {
+  display: flex;
+}
+
 .titulo {
   display: flex;
   align-items: center;
@@ -73,6 +77,7 @@
 
 .principal {
   display: flex;
+  flex-direction: column;
 }
 
 .titulo {
@@ -197,6 +202,45 @@
   width: 50%;
 }
 
+.portifolio {
+  background-color: rgb(17, 4, 158);
+  height: 35vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  justify-items: center;
+}
+
+.seuPet {
+  width: 90%;
+  height: 100%;
+}
+
+.batalhaNaval {
+  width: 90%;
+  height: 100%;
+}
+
+.pedraPapelTesoura {
+  width: 90%;
+  height: 100%;
+}
+
+.seuPetImg {
+  width: 100%;
+  height: 60%;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.descricaoPortifolio {
+  text-align: center;
+  font-family: montserrat;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
 .rodape {
   background-color: rgb(0, 0, 255);
   height: 20vh;
@@ -220,7 +264,7 @@
   text-transform: uppercase;
 }
 
-.portifolio_div {
+.redesSociais {
   display: flex;
   justify-content: center;
   align-items: center;
